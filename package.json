@@ -9,6 +9,7 @@
   "private": false,
   "start": "nodemon server.js",
   "scripts": {
+    "start": "node server.js",
     "watch": "watchify public/js/main.js -o public/js/scripts.js -v",
     "watch_user": "watchify public/js/user/main.js -o public/js/user/scripts.js -v"
   },
